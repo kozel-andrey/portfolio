@@ -84,6 +84,7 @@ section.expectation > section.articles {
 
 .expectation-note {
     height: 220px;
+    border-radius: 6px;
 }
 
 .gradient {
