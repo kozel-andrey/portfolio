@@ -141,7 +141,7 @@
 
     section.works {
         padding-top: 147px;
-        margin-left: 17.22%;
+        margin-left: 4.2%;
         width: 100%;
     }
 
@@ -237,7 +237,7 @@
     }
 
     .footer-content {
-        margin-left: 17.2%;
+        margin-left: 4.2%;
     }
 
     .footer-content > h2 {
@@ -250,24 +250,37 @@
     .contact-data {
         font-family: Georgia, sans-serif;
         margin-top: 61px;
-        width: 21.1%;
+        width: 100%;
         float: left;
     }
 
+    .description {
+        float: left;
+        width: 50%;
+        text-align: justify;
+    }
+
     .social-links {
-        margin-top: 28px;
+        float: left;
+    }
+
+    .links-title {
+        display: none;
     }
 
     ul.social-links {
         padding-left: 0;
-        margin: 0;
+        margin: 0 0 0 40px;
         text-decoration: none;
     }
 
     ul.social-links > li {
-        margin-top: 5px;
         list-style-type: none;
         background: url("../img/marker.jpg") no-repeat left;
+    }
+
+    ul.social-links > li:not(:first-child) {
+        margin-top: 5px;
     }
 
     ul.social-links > li > a {
@@ -281,8 +294,7 @@
     form.message-form {
         font-family: Georgia, sans-serif;
         margin-top: 37px;
-        width: 52.6%;
-        margin-left: 6.7%;
+        width: 95.8%;
         float: left;
     }
 
