@@ -79,6 +79,10 @@
         width: 65.6%;
     }
 
+    .expectation-details {
+        display: none;
+    }
+
     section.expectation > h2.expectation-title {
         font-family: Helvetica-bold, sans-serif;
         font-size: 40px;
