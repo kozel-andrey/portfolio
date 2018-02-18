@@ -171,6 +171,7 @@
         width: 95.8%;
         height: 216px;
         float: left;
+        padding-top: 20px;
     }
 
     .work > .images > figure > img {
@@ -292,6 +293,10 @@
 
     ul.social-links > li:not(:first-child) {
         margin-top: 5px;
+    }
+
+    .visible-lg {
+        display: none;
     }
 
     ul.social-links > li > a {

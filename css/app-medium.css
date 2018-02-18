@@ -157,6 +157,7 @@
     .work > .images {
         width: 95.8%;
         height: 384px;
+        padding-top: 150px;
     }
 
     .work > .images > figure > img {
@@ -258,6 +259,10 @@
         float: left;
         width: 50%;
         text-align: justify;
+    }
+
+    .visible-lg {
+        display: none;
     }
 
     .social-links {
